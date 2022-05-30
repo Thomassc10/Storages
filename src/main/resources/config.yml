@@ -1,0 +1,22 @@
+# size of the menu with all storages (needs to be multiple of 9 --> 9, 18, 27... - and a max of 54)
+menu-size: 9
+
+# use default storages without any custom one (if 'false', usage 'custom-storages.yml')
+default-storages: true
+
+# amount of storages that will show in the menu (this options only works if 'default-storages = true')
+storages-amount: 5
+
+# how the storages will look like (this options only works if 'default-storages = true')
+storage:
+  # item type for the storage
+  item: 'CHEST'
+  # name of the storage
+  name: 'Storage 1'
+  # lore of the storage (needs to be in list format)
+  lore:
+    - 'Storage 1'
+    - 'Save you items here!'
+  # size of the storage (needs to be multiple of 9 --> 9, 18, 27... - and a max of 54)
+  size: 45
+

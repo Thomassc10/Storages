@@ -1,0 +1,13 @@
+name: Storages
+version: 1.4.3
+main: me.thomas.storages.Storages
+api-version: 1.13
+authors: [ Thomas ]
+description: Storages
+
+commands:
+  storages:
+    aliases: str
+  openstr:
+  strreload:
+  debug:

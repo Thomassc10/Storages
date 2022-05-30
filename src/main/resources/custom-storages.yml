@@ -1,0 +1,39 @@
+# FORMAT
+# s1:
+#  item: 'type'
+#  name: 'name'
+#  lore:
+#    - 'lore'
+#    - 'lore'
+#  size: size
+
+# this section is needed to load the storages
+storages:
+  # key for the storage (this has no impact inside the game)
+  s1:
+    # item type for the storage
+    item: 'CHEST'
+    # name of the storage
+    name: 'Storage 1'
+    # lore of the storage (needs to be in list format)
+    lore:
+      - 'Storage 1'
+      - 'Save you items here!'
+    # size of the storage (needs to be multiple of 9 --> 9, 18, 27... - and a max of 54)
+    size: 45
+
+  s2:
+    item: 'CHEST'
+    name: 'Storage 2'
+    lore:
+      - 'Storage 2'
+      - 'Save you items here!'
+    size: 45
+
+  s3:
+    item: 'CHEST'
+    name: 'Storage 3'
+    lore:
+      - 'Storage 3'
+      - 'Save you items here!'
+    size: 45
